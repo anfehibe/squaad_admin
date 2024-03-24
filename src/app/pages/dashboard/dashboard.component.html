@@ -1,0 +1,55 @@
+<main class="w-100 h-100 d-flex">
+  <section class="bg1 h-100 d-none d-md-block fixed-bottom">
+    <nav class="nav flex-column">
+      <li class="nav-item">
+        <a class="nav-link active" aria-current="page" href="#">
+          <img
+            src="../../../assets/img/Logo.png"
+            alt="Squaad"
+            class="img-fluid w-75"
+          />
+        </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link active" aria-current="page" href="#">Dashboars</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Accounts</a>
+      </li>
+    </nav>
+  </section>
+
+  <section class="container">
+    <div class="row">
+      <div class="col-12 py-4">
+        <h1>List of Accounts</h1>
+      </div>
+    </div>
+
+    <div class="row">
+      @for (item of [1,2,3,4,5,6,7,8,1,1,1,1]; track $index) {
+
+        <div class="col-12 col-md-6 p-4">
+          <div class="row bg-white rounded-3 p-3">
+            <div class="col-12 col-lg-9">
+              <h4 class="fs-4">
+                Doral P&V Management
+              </h4>
+              <h5 class="fs-5">
+                Ana Maria Almenara
+              </h5>
+              <h6 class="fs-6">
+                (786) 292.2102
+              </h6>
+  
+            </div>
+            <div class="col-12 col-lg-3">
+              <span class="badge bg4 px-lg-5 fs-6 rounded-3">Files</span>
+            </div>
+          </div>
+        </div>
+      }
+      
+    </div>
+  </section>
+</main>

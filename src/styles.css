@@ -1,1 +1,58 @@
-/* You can add global styles to this file, and also import other style files */
+:root{
+    --color0: #f5f7fa;
+    --color1: #252a3a;
+    --color2: #526ec5;
+    --color3: #a5a6f6;
+    --color4: #2cbc84;
+    --color5: #626262;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+}
+body{
+    background-color: var(--color0);
+}
+nav{
+    width: 250px;
+}
+h1, h2, h3, h4, h5, h6{
+    color: var(--color5);
+}
+
+
+.bg1{
+    background-color: var(--color1);
+}
+.bg2{
+    background-color: var(--color2);
+}
+.bg3{
+    background-color: var(--color3);
+}
+.bg4{
+    background-color: var(--color4);
+}
+
+
+.color0{
+    color: var(--color0);
+}
+.color1{
+    color: var(--color1);
+}
+.color2{
+    color: var(--color2);
+}
+.color3{
+    color: var(--color3);
+}
+.color4{
+    color: var(--color4);
+}
+.color5{
+    color: var(--color5);
+}
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
